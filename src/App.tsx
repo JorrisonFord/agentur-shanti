@@ -1,3 +1,4 @@
+import { useContent } from "./content";
 import { Route, Routes } from "react-router-dom";
 import { Layout } from "./components/layout/Layout";
 import { Home } from "./pages/Home";
@@ -11,6 +12,7 @@ import { Legal } from "./pages/Legal";
 import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
+  const { notFound: copy } = useContent();
   return (
     <>
       <Layout>
@@ -27,14 +29,14 @@ export default function App() {
             path="*"
             element={
               <main className="section-shell">
-                <h1>Seite nicht gefunden</h1>
+                <h1>{copy.title}</h1>
               </main>
             }
           />
         </Routes>
       </Layout>
 
-      <Analytics />
+      {import.meta.env.VITE_VERCEL_ENV && <Analytics />}
     </>
   );
 }

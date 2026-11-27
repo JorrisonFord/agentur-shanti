@@ -1,10 +1,17 @@
+import { useContent } from "../../content";
 
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import { navigation, studio } from "../../data/studio";
 
 export function Navbar() {
+  const { navigation: copy, studio } = useContent();
+  const navigation = [
+    { label: copy.yoga, to: "/yoga" },
+    { label: copy.studio, to: "/studio" },
+    { label: copy.pricing, to: "/preise" },
+    { label: copy.contact, to: "/kontakt" },
+  ];
   const [open, setOpen] = useState(false);
 
   const navClass = ({ isActive }: { isActive: boolean }) =>
@@ -19,7 +26,7 @@ export function Navbar() {
           {studio.name}
         </Link>
 
-        <nav className="hidden items-center gap-8 md:flex" aria-label="Hauptnavigation">
+        <nav className="hidden items-center gap-8 md:flex" aria-label={copy.desktopLabel}>
           {navigation.map((item) => (
             <NavLink
               key={item.to}
@@ -36,13 +43,13 @@ export function Navbar() {
             reloadDocument
             className="button-primary !px-5 !py-2.5"
           >
-            Stundenplan <span aria-hidden>↗</span>
+            {copy.scheduleButton} <span aria-hidden>↗</span>
           </Link>
         </nav>
 
         <button
           className="rounded-full p-2 md:hidden"
-          aria-label={open ? "Menü schließen" : "Menü öffnen"}
+          aria-label={open ? copy.closeMenu : copy.openMenu}
           onClick={() => setOpen(!open)}
         >
           {open ? <X /> : <Menu />}
@@ -52,7 +59,7 @@ export function Navbar() {
       {open && (
         <nav
           className="border-t border-studio-line px-5 py-5 md:hidden"
-          aria-label="Mobile Navigation"
+          aria-label={copy.mobileLabel}
         >
           <div className="flex flex-col gap-5">
             {navigation.map((item) => (
@@ -73,7 +80,7 @@ export function Navbar() {
               onClick={() => setOpen(false)}
               className="button-primary"
             >
-              Stundenplan entdecken
+              {copy.mobileScheduleButton}
             </Link>
           </div>
         </nav>

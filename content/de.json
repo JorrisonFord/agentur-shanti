@@ -1,0 +1,161 @@
+{
+  "seo": {
+    "title": "Studio Yoga – Raum für dich",
+    "description": "Finde deine Balance. Entdecke Yoga-Kurse und buche deine nächste Stunde."
+  },
+  "studio": {
+    "name": "Studio Yoga",
+    "tagline": "Raum für dich.",
+    "description": "Ein Ort, um anzukommen, durchzuatmen und dich selbst in Bewegung zu erleben.",
+    "email": "hallo@studio-yoga.de",
+    "phone": "+49 000 000000",
+    "instagram": "https://www.instagram.com/",
+    "address": [
+      "Musterstraße 12",
+      "50667 Köln"
+    ]
+  },
+  "navigation": {
+    "yoga": "Yoga",
+    "studio": "Studio",
+    "pricing": "Preise",
+    "contact": "Kontakt",
+    "desktopLabel": "Hauptnavigation",
+    "mobileLabel": "Mobile Navigation",
+    "closeMenu": "Menü schließen",
+    "openMenu": "Menü öffnen",
+    "scheduleButton": "Stundenplan",
+    "mobileScheduleButton": "Stundenplan entdecken"
+  },
+  "footer": {
+    "contactLabel": "Kontakt",
+    "informationLabel": "Informationen",
+    "imprintLink": "Impressum",
+    "privacyLink": "Datenschutz",
+    "instagramLink": "Instagram ↗"
+  },
+  "home": {
+    "heroImage": {
+      "src": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=2200&q=85",
+      "alt": "Yoga-Praxis in einem hellen Raum"
+    },
+    "bookingImage": {
+      "src": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&q=85",
+      "alt": "Meditation und Yoga in ruhiger Atmosphäre"
+    },
+    "welcome": "Willkommen bei",
+    "title": "Finde deinen\neigenen Rhythmus.",
+    "coursesButton": "Kurse entdecken",
+    "studioButton": "Das Studio kennenlernen",
+    "introEyebrow": "Deine Praxis. Dein Raum.",
+    "introTitle": "Ein Moment nur für dich.",
+    "introDescription": "Ob du neu auf der Matte bist oder schon lange praktizierst: Bei uns findest du Raum, dich zu bewegen, zur Ruhe zu kommen und deine eigene Praxis zu entwickeln.",
+    "aboutLink": "Mehr über uns",
+    "courseLink": "Mehr erfahren",
+    "bookingEyebrow": "Deine nächste Stunde",
+    "bookingTitle": "Zeit, auf die Matte zu kommen.",
+    "bookingDescription": "Entdecke unseren Stundenplan und finde den Kurs, der gerade zu dir passt.",
+    "bookingButton": "Zum Stundenplan",
+    "coursesEyebrow": "Unser Angebot",
+    "coursesTitle": "Finde deinen Flow.",
+    "coursesDescription": "Unterschiedliche Stile, ein gemeinsamer Gedanke: Yoga soll zu dir und deinem Leben passen."
+  },
+  "schedule": {
+    "eyebrow": "Kurse & Buchung",
+    "title": "Dein Platz auf der Matte wartet.",
+    "description": "Hier findest du alle aktuellen Kurse und kannst deinen Platz direkt buchen.",
+    "bookingNote": "Die Buchung und Verwaltung deiner Teilnahme erfolgt über Eversports. Bitte beachte die dort hinterlegten Stornierungsbedingungen."
+  },
+  "yoga": {
+    "eyebrow": "Yoga bei uns",
+    "title": "Bewegung, Atem und Achtsamkeit.",
+    "description": "Lerne unsere Kursformate kennen und finde heraus, welche Praxis dich anspricht.",
+    "helpTitle": "Du bist dir noch nicht sicher?",
+    "helpDescription": "Melde dich bei uns oder probiere einen Kurs aus. Wir helfen dir gerne, den passenden Einstieg zu finden.",
+    "bookingButton": "Kurs finden",
+    "coursesEyebrow": "Kursformate",
+    "coursesTitle": "Eine Praxis, viele Wege."
+  },
+  "studioPage": {
+    "eyebrow": "Das Studio",
+    "title": "Ein Ort zum Ankommen.",
+    "description": "Wir glauben daran, dass Yoga mehr ist als die Zeit auf der Matte. Es ist eine Einladung, den eigenen Körper bewusster wahrzunehmen und im Alltag neue Balance zu finden.",
+    "approachEyebrow": "Unsere Haltung",
+    "approachTitle": "Yoga in deinem Tempo.",
+    "approachDescription": "Unser Studio soll ein offener und wertschätzender Ort sein. Hier geht es nicht um Perfektion, sondern um deine persönliche Erfahrung – unabhängig davon, wo du gerade stehst.",
+    "teamTitle": "Unser Team",
+    "contactButton": "Lerne uns kennen",
+    "image": {
+      "src": "https://images.unsplash.com/photo-1599447421416-3414500d18a5?auto=format&fit=crop&w=1200&q=85",
+      "alt": "Heller Yogaraum mit Matten"
+    }
+  },
+  "pricing": {
+    "eyebrow": "Preise & Karten",
+    "title": "Finde das passende Format für dich.",
+    "description": "Hier findest du eine Übersicht unserer Buchungsoptionen. Die konkreten Preise und Konditionen kannst du später ergänzen.",
+    "priceNote": "Preis bitte ergänzen",
+    "bookingButton": "Jetzt Kurs buchen",
+    "offersTitle": "Deine Möglichkeiten"
+  },
+  "contact": {
+    "eyebrow": "Kontakt & Anfahrt",
+    "title": "Wir freuen uns, von dir zu hören.",
+    "description": "Du hast eine Frage zu unseren Kursen oder möchtest das Studio kennenlernen? Schreib uns gerne.",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "studioLabel": "Studio",
+    "directions": "Karten- oder Anfahrtsintegration hier ergänzen. Vor Veröffentlichung bitte Adresse, Kontaktdaten und ggf. Anfahrtsinformationen aktualisieren."
+  },
+  "legal": {
+    "eyebrow": "Rechtliches",
+    "impressum": {
+      "title": "Impressum",
+      "body": "Hier müssen die vollständigen Anbieterangaben, Kontaktinformationen und ggf. Angaben zur Aufsichtsbehörde ergänzt werden."
+    },
+    "datenschutz": {
+      "title": "Datenschutzerklärung",
+      "body": "Hier müssen die tatsächlichen Datenverarbeitungen der Website, Hosting, Kontaktaufnahme, Eversports-Einbindung, Cookies und ggf. Analyse- oder Marketingdienste beschrieben werden."
+    },
+    "notice": "Platzhalter – nicht veröffentlichen.",
+    "review": "Bitte vor Veröffentlichung rechtlich prüfen und an die tatsächlich eingesetzten Dienste anpassen."
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden"
+  },
+  "courses": [
+    {
+      "title": "Vinyasa Yoga",
+      "level": "Alle Level",
+      "description": "Fließende Bewegungen verbinden Atem und Bewegung zu einer dynamischen Praxis."
+    },
+    {
+      "title": "Hatha Yoga",
+      "level": "Alle Level",
+      "description": "Eine bewusste Praxis mit Zeit, Haltungen kennenzulernen und im Körper anzukommen."
+    },
+    {
+      "title": "Yin Yoga",
+      "level": "Alle Level",
+      "description": "Ruhige, länger gehaltene Positionen schaffen Raum für Entspannung und Wahrnehmung."
+    }
+  ],
+  "teachers": [],
+  "offers": [
+    {
+      "name": "Probestunde",
+      "detail": "Für deinen ersten Besuch",
+      "price": "XX €"
+    },
+    {
+      "name": "Einzelkarte",
+      "detail": "Eine Stunde ganz flexibel",
+      "price": "XX €"
+    },
+    {
+      "name": "5er-Karte",
+      "detail": "Fünf Einheiten nach deinem Rhythmus",
+      "price": "XX €"
+    }
+  ]
+}

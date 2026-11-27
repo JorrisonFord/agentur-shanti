@@ -1,0 +1,6 @@
+/node_modules/
+/dist/
+/.tina-admin/
+/tina/__generated__/
+/.env*
+!/.env.example
