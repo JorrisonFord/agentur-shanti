@@ -1,64 +1,29 @@
 {
-  "seo": {
-    "title": "Studio Yoga – Raum für dich",
-    "description": "Finde deine Balance. Entdecke Yoga-Kurse und buche deine nächste Stunde."
-  },
-  "studio": {
-    "name": "Studio Yoga",
-    "tagline": "Raum für dich.",
-    "description": "Ein Ort, um anzukommen, durchzuatmen und dich selbst in Bewegung zu erleben.",
-    "email": "hallo@studio-yoga.de",
-    "phone": "+49 000 000000",
-    "instagram": "https://www.instagram.com/",
-    "address": [
-      "Musterstraße 12",
-      "50667 Köln"
-    ]
-  },
-  "navigation": {
-    "yoga": "Yoga",
-    "studio": "Studio",
-    "pricing": "Preise",
-    "contact": "Kontakt",
-    "desktopLabel": "Hauptnavigation",
-    "mobileLabel": "Mobile Navigation",
-    "closeMenu": "Menü schließen",
-    "openMenu": "Menü öffnen",
-    "scheduleButton": "Stundenplan",
-    "mobileScheduleButton": "Stundenplan entdecken"
-  },
-  "footer": {
-    "contactLabel": "Kontakt",
-    "informationLabel": "Informationen",
-    "imprintLink": "Impressum",
-    "privacyLink": "Datenschutz",
-    "instagramLink": "Instagram ↗"
-  },
   "home": {
-    "heroImage": {
-      "src": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=2200&q=85",
-      "alt": "Yoga-Praxis in einem hellen Raum"
-    },
-    "bookingImage": {
-      "src": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&q=85",
-      "alt": "Meditation und Yoga in ruhiger Atmosphäre"
-    },
     "welcome": "Willkommen bei",
     "title": "Finde deinen\neigenen Rhythmus.",
+    "heroImage": {
+      "src": "/images/AgenturShanti_YogaRaum.JPG",
+      "alt": "Yoga-Praxis in einem hellen Raum"
+    },
     "coursesButton": "Kurse entdecken",
     "studioButton": "Das Studio kennenlernen",
     "introEyebrow": "Deine Praxis. Dein Raum.",
     "introTitle": "Ein Moment nur für dich.",
     "introDescription": "Ob du neu auf der Matte bist oder schon lange praktizierst: Bei uns findest du Raum, dich zu bewegen, zur Ruhe zu kommen und deine eigene Praxis zu entwickeln.",
     "aboutLink": "Mehr über uns",
+    "coursesEyebrow": "Unser Angebot",
+    "coursesTitle": "Finde deinen Flow.",
+    "coursesDescription": "Unterschiedliche Stile, ein gemeinsamer Gedanke: Yoga soll zu dir und deinem Leben passen.",
     "courseLink": "Mehr erfahren",
     "bookingEyebrow": "Deine nächste Stunde",
     "bookingTitle": "Zeit, auf die Matte zu kommen.",
     "bookingDescription": "Entdecke unseren Stundenplan und finde den Kurs, der gerade zu dir passt.",
     "bookingButton": "Zum Stundenplan",
-    "coursesEyebrow": "Unser Angebot",
-    "coursesTitle": "Finde deinen Flow.",
-    "coursesDescription": "Unterschiedliche Stile, ein gemeinsamer Gedanke: Yoga soll zu dir und deinem Leben passen."
+    "bookingImage": {
+      "src": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&q=85",
+      "alt": "Meditation und Yoga in ruhiger Atmosphäre"
+    }
   },
   "schedule": {
     "eyebrow": "Kurse & Buchung",
@@ -70,33 +35,33 @@
     "eyebrow": "Yoga bei uns",
     "title": "Bewegung, Atem und Achtsamkeit.",
     "description": "Lerne unsere Kursformate kennen und finde heraus, welche Praxis dich anspricht.",
+    "coursesEyebrow": "Kursformate",
+    "coursesTitle": "Eine Praxis, viele Wege.",
     "helpTitle": "Du bist dir noch nicht sicher?",
     "helpDescription": "Melde dich bei uns oder probiere einen Kurs aus. Wir helfen dir gerne, den passenden Einstieg zu finden.",
-    "bookingButton": "Kurs finden",
-    "coursesEyebrow": "Kursformate",
-    "coursesTitle": "Eine Praxis, viele Wege."
+    "bookingButton": "Kurs finden"
   },
   "studioPage": {
     "eyebrow": "Das Studio",
     "title": "Ein Ort zum Ankommen.",
     "description": "Wir glauben daran, dass Yoga mehr ist als die Zeit auf der Matte. Es ist eine Einladung, den eigenen Körper bewusster wahrzunehmen und im Alltag neue Balance zu finden.",
+    "image": {
+      "src": "https://images.unsplash.com/photo-1599447421416-3414500d18a5?auto=format&fit=crop&w=1200&q=85",
+      "alt": "Heller Yogaraum mit Matten"
+    },
     "approachEyebrow": "Unsere Haltung",
     "approachTitle": "Yoga in deinem Tempo.",
     "approachDescription": "Unser Studio soll ein offener und wertschätzender Ort sein. Hier geht es nicht um Perfektion, sondern um deine persönliche Erfahrung – unabhängig davon, wo du gerade stehst.",
     "teamTitle": "Unser Team",
-    "contactButton": "Lerne uns kennen",
-    "image": {
-      "src": "https://images.unsplash.com/photo-1599447421416-3414500d18a5?auto=format&fit=crop&w=1200&q=85",
-      "alt": "Heller Yogaraum mit Matten"
-    }
+    "contactButton": "Lerne uns kennen"
   },
   "pricing": {
     "eyebrow": "Preise & Karten",
     "title": "Finde das passende Format für dich.",
     "description": "Hier findest du eine Übersicht unserer Buchungsoptionen. Die konkreten Preise und Konditionen kannst du später ergänzen.",
+    "offersTitle": "Deine Möglichkeiten",
     "priceNote": "Preis bitte ergänzen",
-    "bookingButton": "Jetzt Kurs buchen",
-    "offersTitle": "Deine Möglichkeiten"
+    "bookingButton": "Jetzt Kurs buchen"
   },
   "contact": {
     "eyebrow": "Kontakt & Anfahrt",
@@ -119,9 +84,6 @@
     },
     "notice": "Platzhalter – nicht veröffentlichen.",
     "review": "Bitte vor Veröffentlichung rechtlich prüfen und an die tatsächlich eingesetzten Dienste anpassen."
-  },
-  "notFound": {
-    "title": "Seite nicht gefunden"
   },
   "courses": [
     {
@@ -157,5 +119,43 @@
       "detail": "Fünf Einheiten nach deinem Rhythmus",
       "price": "XX €"
     }
-  ]
+  ],
+  "studio": {
+    "name": "Studio Yoga",
+    "tagline": "Raum für dich.",
+    "description": "Ein Ort, um anzukommen, durchzuatmen und dich selbst in Bewegung zu erleben.",
+    "email": "hallo@studio-yoga.de",
+    "phone": "+49 000 000000",
+    "address": [
+      "Musterstraße 12",
+      "50667 Köln"
+    ],
+    "instagram": "https://www.instagram.com/"
+  },
+  "navigation": {
+    "yoga": "Yoga",
+    "studio": "Studio",
+    "pricing": "Preise",
+    "contact": "Kontakt",
+    "scheduleButton": "Stundenplan",
+    "mobileScheduleButton": "Stundenplan entdecken",
+    "desktopLabel": "Hauptnavigation",
+    "mobileLabel": "Mobile Navigation",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
+  },
+  "footer": {
+    "contactLabel": "Kontakt",
+    "informationLabel": "Informationen",
+    "imprintLink": "Impressum",
+    "privacyLink": "Datenschutz",
+    "instagramLink": "Instagram ↗"
+  },
+  "seo": {
+    "title": "Studio Yoga – Raum für dich",
+    "description": "Finde deine Balance. Entdecke Yoga-Kurse und buche deine nächste Stunde."
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden"
+  }
 }
