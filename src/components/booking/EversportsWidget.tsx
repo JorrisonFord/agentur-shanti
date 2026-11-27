@@ -1,29 +1,42 @@
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
+
+const SCRIPT_URL =
+  "https://widget-static.eversports.io/loader.js";
 
 export function EversportsWidget() {
+  const containerRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
-    const scriptUrl =
-      "https://widget-static.eversports.io/loader.js";
+    let cancelled = false;
 
-    // Script nicht mehrfach laden
-    const existingScript = document.querySelector(
-      `script[src="${scriptUrl}"]`
-    );
+    const initializeWidget = () => {
+      if (cancelled || !containerRef.current) return;
 
-    if (!existingScript) {
+      // Bereits vorhandenes Eversports-Script entfernen
+      document
+        .querySelectorAll(`script[src="${SCRIPT_URL}"]`)
+        .forEach((script) => script.remove());
+
+      // Script erneut laden
       const script = document.createElement("script");
       script.type = "module";
-      script.src = scriptUrl;
+      script.src = SCRIPT_URL;
       script.async = true;
-      script.defer = true;
 
       document.body.appendChild(script);
-    }
+    };
+
+    initializeWidget();
+
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   return (
     <div
+      ref={containerRef}
       data-eversports-widget-id="774907fb-c23e-4d52-a476-49e89c272c2f"
       className="w-full min-h-[600px]"
     />
