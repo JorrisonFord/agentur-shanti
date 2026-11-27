@@ -8,20 +8,33 @@ import { Pricing } from "./pages/Pricing";
 import { Contact } from "./pages/Contact";
 import { Legal } from "./pages/Legal";
 
+import { Analytics } from "@vercel/analytics/react";
+
 export default function App() {
   return (
-    <Layout>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/stundenplan" element={<Schedule />} />
-        <Route path="/yoga" element={<Yoga />} />
-        <Route path="/studio" element={<Studio />} />
-        <Route path="/preise" element={<Pricing />} />
-        <Route path="/kontakt" element={<Contact />} />
-        <Route path="/impressum" element={<Legal type="impressum" />} />
-        <Route path="/datenschutz" element={<Legal type="datenschutz" />} />
-        <Route path="*" element={<main className="section-shell"><h1>Seite nicht gefunden</h1></main>} />
-      </Routes>
-    </Layout>
+    <>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/stundenplan" element={<Schedule />} />
+          <Route path="/yoga" element={<Yoga />} />
+          <Route path="/studio" element={<Studio />} />
+          <Route path="/preise" element={<Pricing />} />
+          <Route path="/kontakt" element={<Contact />} />
+          <Route path="/impressum" element={<Legal type="impressum" />} />
+          <Route path="/datenschutz" element={<Legal type="datenschutz" />} />
+          <Route
+            path="*"
+            element={
+              <main className="section-shell">
+                <h1>Seite nicht gefunden</h1>
+              </main>
+            }
+          />
+        </Routes>
+      </Layout>
+
+      <Analytics />
+    </>
   );
 }
