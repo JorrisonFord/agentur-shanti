@@ -8,29 +8,26 @@ export function EversportsWidget() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    let cancelled = false;
+    const container = containerRef.current;
+    if (!container) return;
 
-    const initializeWidget = () => {
-      if (cancelled || !containerRef.current) return;
+    let script = document.querySelector<HTMLScriptElement>(
+      `script[src="${SCRIPT_URL}"]`
+    );
 
-      // Bereits vorhandenes Eversports-Script entfernen
-      document
-        .querySelectorAll(`script[src="${SCRIPT_URL}"]`)
-        .forEach((script) => script.remove());
-
-      // Script erneut laden
-      const script = document.createElement("script");
+    if (!script) {
+      script = document.createElement("script");
       script.type = "module";
       script.src = SCRIPT_URL;
       script.async = true;
-
       document.body.appendChild(script);
-    };
-
-    initializeWidget();
+    }
 
     return () => {
-      cancelled = true;
+      // Nur den Widget-Container leeren, nicht das globale Script entfernen.
+      if (container) {
+        container.replaceChildren();
+      }
     };
   }, []);
 

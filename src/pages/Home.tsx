@@ -21,8 +21,12 @@ export function Home() {
             <h1 className="font-display text-5xl leading-[1.04] tracking-tight md:text-7xl">Finde deinen<br />eigenen Rhythmus.</h1>
             <p className="mt-6 max-w-xl text-base leading-7 text-white/85 md:text-lg">{studio.description}</p>
             <div className="mt-9 flex flex-wrap gap-3">
-              <ButtonLink to="/stundenplan">Kurse entdecken <ArrowRight size={16} /></ButtonLink>
-              <Link to="/studio" className="inline-flex items-center rounded-full border border-white/70 px-6 py-3 text-sm font-medium transition hover:bg-white/15">Das Studio kennenlernen</Link>
+              <ButtonLink to="/stundenplan" reloadDocument>
+                Kurse entdecken <ArrowRight size={16} />
+              </ButtonLink>
+              <Link to="/studio" className="inline-flex items-center rounded-full border border-white/70 px-6 py-3 text-sm font-medium transition hover:bg-white/15">
+                Das Studio kennenlernen
+              </Link>
             </div>
           </div>
           <ArrowDownRight className="absolute bottom-8 right-8 hidden md:block" size={34} strokeWidth={1} />
@@ -62,7 +66,7 @@ export function Home() {
             <p className="eyebrow mb-4">Deine nächste Stunde</p>
             <h2 className="font-display text-4xl leading-tight md:text-5xl">Zeit, auf die Matte zu kommen.</h2>
             <p className="mt-5 max-w-md leading-7 text-studio-muted">Entdecke unseren Stundenplan und finde den Kurs, der gerade zu dir passt.</p>
-            <div className="mt-8"><ButtonLink to="/stundenplan">Zum Stundenplan <ArrowRight size={16} /></ButtonLink></div>
+            <div className="mt-8"><ButtonLink to="/stundenplan" reloadDocument >Zum Stundenplan <ArrowRight size={16} /></ButtonLink></div>
           </div>
           <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&q=85" alt="Meditation und Yoga in ruhiger Atmosphäre" className="h-72 w-full object-cover md:h-full" />
         </div>
